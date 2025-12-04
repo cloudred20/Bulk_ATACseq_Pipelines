@@ -24,8 +24,12 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   * Perform differential ATAC-seq with **DESeq2 1.44.0** using biological replicates for accurate dispersion estimation.
   * Detect TF footprints (Tn5 protection sites) and infer TF activity using motif information from **MotifDb 1.46.0**.
 
+#### (5) Reporting & Aggregation:
+ * Aggregates reports from FastQC, Trim Galore, Bowtie2, Picard, Samtools, MACS2, etc using **MultiQC 1.10**.
+
 ### Resources
   1. https://github.com/nf-core/atacseq
   2. https://doi.org/10.1186/s13059-020-1929-3
+
 
 
