@@ -1,6 +1,6 @@
 ## HPC-ready pipelines for processing and analyzing bulk ATAC-seq data
 
-ATAC-seq is used to interrogate chromatin accessibility, providing insights into enhancer landscapes, chromatin states, and differences in accessibility between normal and diseased samples. 
+Integrates best-practice tools for comprehensive QC, peak calling, and differential accessibility analysis, providing insights into chromatin accessibility and providing insights into enhancer landscapes, chromatin states, and differences in accessibility between normal and diseased samples.
 
 ### Four major steps in ATAC-seq analysis include:
 
@@ -56,5 +56,6 @@ ATAC-seq is used to interrogate chromatin accessibility, providing insights into
   * **Differential Accessibility Analysis:** Differential ATAC-seq analyses will be performed with **DESeq2 1.44.0**, which models counts using a negative binomial distribution and requires biological replicates to estimate dispersion accurately.
 
   * **Footprinting and Regulatory Network Reconstruction:** Transcription factor footprints will be identified as regions of relative depletion within open chromatin, where active TFs prevent Tn5 cleavage. These footprints will be used to infer TF activity and reconstruct regulatory networks in specific samples. Motif information from **MotifDb 1.46.0** will support footprinting analyses.
+
 
 
