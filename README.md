@@ -1,3 +1,5 @@
+# Under Construction: This repository is part of my 2026 Bioinformatics Scientist Portfolio. Expected release: Q1 2026.
+
 ## HPC-Ready Pipelines for Bulk ATAC-seq Processing and Analysis
 This repository provides an HPC-optimized workflow for processing and analyzing bulk ATAC-seq data. Integrates best-practice tools for comprehensive quality control (QC), peak calling, and differential accessibility analysis, providing deep insights into chromatin accessibility and enhancer landscapes.
 
@@ -31,6 +33,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   1. https://github.com/nf-core/atacseq
   2. https://doi.org/10.1186/s13059-020-1929-3
   3. https://bioinformaticamente.com/2024/12/05/comprehensive-guide-to-atac-seq-data-quality-control/
+
 
 
 
