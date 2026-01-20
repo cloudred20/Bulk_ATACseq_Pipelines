@@ -15,7 +15,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   * Generate filtered BAM files using **Samtools 1.17** to retain only high-quality, properly paired reads. 
   * Evaluate fragment size distribution and alignment quality metrics using R package, **ATACseqQC 1.28.0**.
 
-#### (3) Core analysis (peak calling):
+#### (3) Peak calling and genomic annotation (core analysis):
   * Detect accessible chromatin regions using **MACS2 2.2.6** in paired-end mode (-f BAMPE). 
   * Assess peak quality using **ChIPQC 1.40.0** including FRiP scores and blacklist region overlaps.
 
@@ -33,6 +33,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   1. https://github.com/nf-core/atacseq
   2. https://doi.org/10.1186/s13059-020-1929-3
   3. https://bioinformaticamente.com/2024/12/05/comprehensive-guide-to-atac-seq-data-quality-control/
+
 
 
 
