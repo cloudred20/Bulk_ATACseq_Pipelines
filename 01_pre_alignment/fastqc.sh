@@ -1,20 +1,16 @@
 #!/bin/sh
 
-# Simple FastQC + MultiQC wrapper
 # Runs FastQC on all FASTQ files before trimming
 
-FASTQ_DIR=./fastq_files
-OUT_DIR=./fastqc_results
-
-mkdir -p "$OUT_DIR"
+mkdir -p ./fastqc_results
 
 # Run FastQC
-fastqc "$FASTQ_DIR"/*.fastq.gz -o "$OUT_DIR"
+fastqc ./fastq_files/*.fastq.gz -o ./fastqc_results
 
 # Run FastQC via SLURM
-srun fastqc "$FASTQ_DIR"/*.fastq.gz -o "$OUT_DIR"
+srun fastqc ./fastq_files/*.fastq.gz -o ./fastqc_results
 
 # Run MultiQC
 conda activate python3.7
-multiqc "$OUT_DIR" -o "$OUT_DIR"
+multiqc ./fastqc_results -o ./fastqc_results
 conda deactivate
