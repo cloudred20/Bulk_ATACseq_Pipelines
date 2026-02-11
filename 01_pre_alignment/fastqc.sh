@@ -7,9 +7,6 @@ mkdir -p ./fastqc_results
 # Run FastQC
 fastqc ./fastq_files/*.fastq.gz -o ./fastqc_results
 
-# Run FastQC via SLURM
-srun fastqc ./fastq_files/*.fastq.gz -o ./fastqc_results
-
 # Run MultiQC
 conda activate python3.7
 multiqc ./fastqc_results -o ./fastqc_results
