@@ -1,5 +1,7 @@
 #!/bin/sh
 #script to generate genome indexes for hg38 using Bowtie2
+
+# Load Bowtie2 module
 module load Bowtie2/
 
 mkdir bowtie2
