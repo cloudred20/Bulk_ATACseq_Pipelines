@@ -5,7 +5,7 @@
 mkdir -p ./fastqc_results
 
 # Run FastQC
-fastqc ./fastq_files/*.fastq.gz -o ./fastqc_results
+~/tools/FastQC/fastqc ./fastq_files/*.fastq.gz -o ./fastqc_results
 
 # Run MultiQC
 conda activate python3.7
