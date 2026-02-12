@@ -24,3 +24,8 @@ srun bowtie2 --very-sensitive -X 2000 -x ./bowtie2/hg38 \
     -1 trimgalore_results${file}_R1_001_val_1.fq.gz \
     -2 trimgalore_results${file}_R2_001_val_2.fq.gz \
     -S bowtie2_results/${file}.sam
+
+# Run MultiQC
+conda activate python3.7
+multiqc ./bowtie2_results/. -o ./bowtie2_results/
+conda deactivate 
