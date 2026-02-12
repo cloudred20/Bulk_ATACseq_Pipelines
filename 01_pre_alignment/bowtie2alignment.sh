@@ -1,6 +1,13 @@
 #!/bin/bash
+# Perform Bowtie2 alignment for trimmed paired-end FASTQ files
 
-# Load Bowtie2 module
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH -t 12:00:00
+#SBATCH -o bowtie2_results/slurm_%A_%a.out
+#SBATCH -e bowtie2_results/slurm_%A_%a.err
+
+# Load Bowtie2 module (required if using a module-based system)
 module load Bowtie2
 
 # Create the output directory
