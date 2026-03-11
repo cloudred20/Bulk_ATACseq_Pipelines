@@ -14,6 +14,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   * Identify and mark PCR/optical duplicates using **Picard 2.26.10 MarkDuplicates** to reduce over-amplification bias.
   * Generate filtered BAM files using **Samtools 1.17** to retain only high-quality, properly paired reads. 
   * Evaluate fragment size distribution and alignment quality metrics using R package, **ATACseqQC 1.28.0**.
+  * Generate normalized genome-wide accessibility tracks and enrichment profiles using **deepTools**.
 
 #### (3) Peak calling and genomic annotation (core analysis):
   * Detect accessible chromatin regions using **MACS2 2.2.6** in paired-end mode (-f BAMPE). 
@@ -33,6 +34,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   1. https://github.com/nf-core/atacseq
   2. https://doi.org/10.1186/s13059-020-1929-3
   3. https://bioinformaticamente.com/2024/12/05/comprehensive-guide-to-atac-seq-data-quality-control/
+
 
 
 
