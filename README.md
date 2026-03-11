@@ -19,9 +19,9 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
 #### (3) Peak calling and genomic annotation (core analysis):
   * Detect accessible chromatin regions using **MACS2 2.2.6** in paired-end mode (-f BAMPE). 
   * Assess peak quality using **ChIPQC 1.40.0** including FRiP scores and blacklist region overlaps.
+  * Annotate identified peaks with **ChIPseeker 1.40.0**, assigning genomic features and performing GO enrichment analyses.
 
 #### (4) Advanced analysis:
-  * Annotate identified peaks with **ChIPseeker 1.40.0**, assigning genomic features and performing GO enrichment analyses.
   * Identify putative transcription factor binding sites (TFBS) using **JASPAR2020 0.99.10, TFBSTools 1.42.0 and motifmatchr 1.26.0**.
   * Quantify motif accessibility deviations across conditions using **chromVAR 1.26.0**.
   * Perform differential ATAC-seq with **DESeq2 1.44.0** using biological replicates for accurate dispersion estimation.
@@ -34,6 +34,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   1. https://github.com/nf-core/atacseq
   2. https://doi.org/10.1186/s13059-020-1929-3
   3. https://bioinformaticamente.com/2024/12/05/comprehensive-guide-to-atac-seq-data-quality-control/
+
 
 
 
