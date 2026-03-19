@@ -34,6 +34,8 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   1. https://github.com/nf-core/atacseq
   2. https://doi.org/10.1186/s13059-020-1929-3
   3. https://bioinformaticamente.com/2024/12/05/comprehensive-guide-to-atac-seq-data-quality-control/
+  4. https://rockefelleruniversity.github.io/RU_ATACseq/
+  5. https://bioconductor.org/packages/release/bioc/vignettes/ATACseqQC/inst/doc/ATACseqQC.html#Introduction
 
 
 
