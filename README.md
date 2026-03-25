@@ -40,6 +40,8 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
   3. https://bioinformaticamente.com/2024/12/05/comprehensive-guide-to-atac-seq-data-quality-control/
   4. https://rockefelleruniversity.github.io/RU_ATACseq/
   5. https://bioconductor.org/packages/release/bioc/vignettes/ATACseqQC/inst/doc/ATACseqQC.html#Introduction
+  6. https://hbctraining.github.io/Intro-to-ChIPseq/lessons/06_combine_chipQC_and_metrics.html
+  7. https://mirror.dotsrc.org/bioconductor-releases/3.7/bioc/vignettes/ChIPQC/inst/doc/ChIPQC.pdf
 
 
 
