@@ -4,8 +4,8 @@
 This repository provides an HPC-optimized workflow for processing and analyzing bulk ATAC-seq data using SLURM scheduler parallel processing. Integrates best-practice tools for comprehensive quality control (QC), peak calling, and differential accessibility analysis, providing deep insights into chromatin accessibility and enhancer landscapes.
 
 ### Note on Environment Management: 
-Standard conda activate and deactivate commands may fail within non-interactive SLURM shells.
-Use the --array 1-n flag (where n is the number of jobs) to process multiple samples simultaneously, maximizing cluster throughput.
+* Standard conda activate and deactivate commands may fail within non-interactive SLURM shells.
+* Use the --array 1-n flag (where n is the number of jobs) to process multiple samples simultaneously, maximizing cluster throughput.
 
 ### Four major steps in ATAC-seq analysis include:
 
