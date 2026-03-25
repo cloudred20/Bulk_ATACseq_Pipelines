@@ -5,7 +5,7 @@ This repository provides an HPC-optimized workflow for processing and analyzing 
 
 ### Note on Environment Management: 
 * Standard conda activate and deactivate commands may fail within non-interactive SLURM shells.
-* Use the --array 1-n flag (where n is the number of jobs) to process multiple samples simultaneously, maximizing cluster throughput.
+* Use the #SBATCH --array 1-n flag (where n is the number of jobs) in the SLURM script to process multiple samples simultaneously, maximizing cluster throughput.
 
 ### Four major steps in ATAC-seq analysis include:
 
