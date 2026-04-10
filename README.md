@@ -1,5 +1,3 @@
-# Under Construction: Expected release: Q1 2026.
-
 ## HPC-Ready Pipelines for Bulk ATAC-seq Processing and Analysis
 This repository provides an HPC-optimized workflow for processing and analyzing bulk ATAC-seq data using SLURM scheduler parallel processing. Integrates best-practice tools for comprehensive quality control (QC), peak calling, and differential accessibility analysis, providing deep insights into chromatin accessibility and enhancer landscapes.
 
